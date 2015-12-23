@@ -1,0 +1,13 @@
+{
+  "name": "dmusic",
+  "description": "A minimal D application.",
+  "copyright": "Copyright © 2015, alphakai",
+  "authors": ["alphakai"],
+  "dependencies": {
+    "kdtl":{"path":"../kdtl"},
+    "dlangui":"~master",
+    "derelict_extras-sndfile":"~master"
+  },
+  "libs":["portaudio"],
+  "sourceFiles": ["source/dmusic/deimos/portaudio.di"]
+}
